@@ -1,0 +1,54 @@
+body {
+    background-color: #D32F2F;
+    color: white;
+}
+
+#greet {
+    width: 63%;
+    margin: 5% auto;
+}
+
+#char {
+    width: 100%;
+}
+
+#personal {
+    margin: 15% 0;
+}
+
+#personal p {
+    font-size: 15pt;
+}
+
+#personal h1 {
+    margin-bottom: 2px;
+}
+
+#born-date {
+    font-size: 12pt !important;
+    margin-top: 0;
+}
+
+#gallery img {
+    width: 28%;
+    display: inline;
+    border: 10px solid white;
+    
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s ;
+    transition: all 0.5s ;
+}
+
+#gallery img:hover {
+    width: 40%;    
+    cursor: pointer;
+}
+
+#gallery {
+    margin: 15% 0;
+}
+
+#gallery-xs img {
+    border: 10px solid white;
+    margin-bottom: 15px;
+}
